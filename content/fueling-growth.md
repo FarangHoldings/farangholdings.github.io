@@ -13,9 +13,9 @@ Want in? Grab up to 49% of Farang Holdings over 5 years. We’re not here to bab
 
 ## Samui Hospitality Group (SHG): The Syndicate That Slaps
 
-We run the show (51%), Orange Capital’s syndicate owns 49%. SHG isn’t your grandma’s hotel fund—it’s a hospitality beast reshaping Samui. No dividends for us, just a 5% cut of the profits monthly. Every baht flows back to Orange until they’re square, then we rinse and repeat. Scalable? Hell yes. Honest? Damn straight.
+We run the show (51%), Orange Capital’s SHG syndicate owns 49%. SHG isn’t your grandma’s hotel fund—it’s a hospitality beast reshaping Samui. No dividends for us, just a 5% cut of the profits monthly. Every baht flows back to Orange until they’re square, then we rinse and repeat. Scalable? Hell yes. Honest? Damn straight.
 
-[Join the Syndicate](https://orange.capital/syndicate/shg) — Get in or get out.
+[Join the Syndicate](#) — Get in or get out.
 
 ## Why Us?
 
