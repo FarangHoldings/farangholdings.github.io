@@ -1,0 +1,39 @@
+baseURL: "http://example.com/"
+languageCode: "en-us"
+title: "Farang Holdings"
+theme: "hugo-PaperMod"
+
+params:
+  description: "Bold investments and business support in Southern Thailand"
+  homeInfoParams:
+    Title: "Farang Holdings"
+    Content: "We’re the South’s Secret Weapon"
+  cover:
+    linkFullImages: true
+    image: "/img/samui-beach-aerial.jpg"
+  ShowReadingTime: false
+  ShowBreadCrumbs: true
+  disableThemeToggle: true
+  defaultTheme: "dark"
+  customCSS:
+    - "css/custom.css"  # Exact match to static/css/custom.css
+  hideMeta: true  # Hides date and other metadata
+
+menu:
+  main:
+    - identifier: forged-in-fire
+      name: "Forged in Fire"
+      url: "/forged-in-fire/"
+      weight: 1
+    - identifier: fueling-growth
+      name: "Fueling Growth"
+      url: "/fueling-growth/"
+      weight: 2
+    - identifier: street-smart-solutions
+      name: "Street-Smart Solutions"
+      url: "/street-smart-solutions/"
+      weight: 3
+    - identifier: making-waves
+      name: "Making Waves"
+      url: "/making-waves/"
+      weight: 4

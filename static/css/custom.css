@@ -1,0 +1,167 @@
+/* Global Styles */
+html, body, #page {
+    background: #1a2a44 !important;
+    background-color: #1a2a44 !important;
+    color: #fff !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/* Override PaperMod’s CSS variables */
+:root {
+    --body-bg: #1a2a44 !important;
+    --content-bg: #1a2a44 !important;
+    --entry: #1a2a44 !important;
+    --main: #fff !important;
+    --card-bg: #1a2a44 !important;
+    --code-bg: #1a2a44 !important;
+    --menu-bg: #1a2a44 !important;
+    --menu: #fff !important;
+    --menu-hover: #f4a261 !important;
+}
+
+/* Navigation */
+.header, .navbar, .menu, .top-link, .nav-links {
+    background: #1a2a44 !important;
+    background-color: #1a2a44 !important;
+    color: #fff !important;
+}
+
+.header a, .navbar a, .menu a, .top-link, .nav-links a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+.header a:hover, .navbar a:hover, .menu a:hover, .top-link:hover, .nav-links a:hover {
+    color: #f4a261 !important;
+}
+
+/* Breadcrumbs */
+.breadcrumbs, .breadcrumb-item, .breadcrumbs a, .breadcrumb-item a {
+    color: #fff !important;
+    background: #1a2a44 !important;
+}
+
+.breadcrumbs a:hover, .breadcrumb-item a:hover {
+    color: #f4a261 !important;
+}
+
+/* Body Text */
+.post-content, .entry-content, .post-entry, p {
+    color: #fff !important;
+}
+
+/* Titles and Headings */
+.entry-title, .post-title, h1, h2, h3 {
+    color: #fff !important;
+}
+
+/* Links */
+.entry-content a, .post-content a {
+    color: #f4a261 !important;
+    text-decoration: underline !important;
+}
+
+/* Hero Section */
+.home-info {
+    position: relative;
+    background: url('/img/samui-beach-aerial.jpg') no-repeat center !important;
+    background-size: cover !important;
+    width: 100% !important;
+    min-height: 70vh !important;
+    padding: 2rem !important;
+    text-align: center;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+/* Overlay */
+.home-info::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5) !important;
+    z-index: 0;
+}
+
+/* Hero Content */
+.home-info h1, .home-info p, .home-info a {
+    position: relative;
+    z-index: 1;
+    color: #fff !important;
+}
+
+.home-info h1 {
+    font-size: 4.5rem !important;
+    font-weight: 700 !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7) !important;
+    margin: 0 !important;
+}
+
+.home-info p {
+    font-size: 1.3rem !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7) !important;
+    margin: 1rem 0 !important;
+}
+
+/* Buttons */
+.button, a.button {
+    padding: 12px 24px !important;
+    background: #e76f51 !important;
+    border: none !important;
+    color: #fff !important;
+    font-size: 1.2rem !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    border-radius: 4px !important;
+}
+
+.button:hover, a.button:hover {
+    background: #f4a261 !important;
+    transition: background 0.3s ease !important;
+}
+
+/* Content Images */
+.post-content img, .entry-content img {
+    width: 100% !important;
+    height: auto !important;
+    margin: 20px auto !important;
+    display: block !important;
+}
+
+/* Footer */
+.footer {
+    background: #1a2a44 !important;
+    color: #fff !important;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .home-info h1 { font-size: 3rem !important; }
+}
+
+.tidycal-booking {
+    margin-top: 2rem;
+}
+
+.tidycal-booking h3 {
+    color: #fff !important;
+    font-size: 1.5rem !important;
+    margin-bottom: 0.5rem;
+}
+
+.tidycal-booking p {
+    color: #fff !important;
+    font-size: 1rem !important;
+    margin-bottom: 1rem;
+}
+
+/* Calendly widget adjustments */
+.tidycal-inline-widget {
+    background: #1a2a44 !important;
+    border-radius: 4px !important;
+}
